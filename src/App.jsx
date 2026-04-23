@@ -50,7 +50,7 @@ function UtilBar({ pct }) {
 
 function Ticker() {
   const [pos, setPos] = useState(0);
-  const itemW = 280;
+  const itemW = 320;
   const totalW = TICK_ITEMS.length * itemW;
 
   useEffect(() => {
