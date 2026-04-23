@@ -34,6 +34,30 @@ const FFI_DATA = [
   { label: "Dream Chaser (proj.)", value: "TBD", delta: "NET 2027", up: null },
 ];
 
+const INTELLIGENCE = [
+  {
+    date: "2026-04-23",
+    tag: "MARKET ANALYSIS",
+    title: "What lithium-ion battery qualification taught me about vetting new launch providers",
+    summary: "The same framework procurement teams use to qualify a new cell supplier applies directly to evaluating launch providers — and the space industry doesn't know it yet.",
+    href: "#",
+  },
+  {
+    date: "2026-04-23",
+    tag: "PROCUREMENT",
+    title: "Payload integration is a procurement problem, not an engineering problem",
+    summary: "Every payload integration failure we've seen in commercial space has a procurement root cause. Here's the framework for fixing it upstream.",
+    href: "#",
+  },
+  {
+    date: "2026-04-23",
+    tag: "MARKET BRIEF",
+    title: "How Chinese launch cadence actually affects American commercial customers",
+    summary: "The competitive pressure from Chinese launch providers is real — but not in the way most American procurement teams think.",
+    href: "#",
+  },
+];
+
 const statusDot = { OPEN: "bg-emerald-400", CLOSING: "bg-amber-400", FULL: "bg-red-400", LAUNCHED: "bg-slate-500" };
 
 function UtilBar({ pct }) {
@@ -384,6 +408,41 @@ export default function FinalFreight() {
             )}
           </section>
         </div>
+
+{/* INTELLIGENCE */}
+<section className="border border-slate-700/60 bg-slate-900/40">
+  <div className="flex items-center justify-between px-5 py-3 border-b border-slate-700/60">
+    <div className="flex items-center gap-2">
+      <FileText size={14} className="text-slate-400" />
+      <span className="text-slate-200 text-xs uppercase tracking-widest font-bold">Intelligence Terminal</span>
+    </div>
+    <span className="text-slate-600 text-xs font-mono">Published research + market briefs</span>
+  </div>
+  <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-800/60">
+    {INTELLIGENCE.map((item, i) => (
+      
+        key={i}
+        href={item.href}
+        className="p-5 flex flex-col gap-3 hover:bg-slate-800/30 transition-colors group"
+      >
+        <div className="flex items-center justify-between">
+          <span className="text-xs text-slate-500 uppercase tracking-widest border border-slate-700 px-2 py-0.5">{item.tag}</span>
+          <span className="font-mono text-xs text-slate-600">{item.date}</span>
+        </div>
+        <h3 className="text-slate-200 text-sm font-bold leading-snug group-hover:text-white transition-colors">
+          {item.title}
+        </h3>
+        <p className="text-slate-500 text-xs leading-relaxed flex-1">
+          {item.summary}
+        </p>
+        <div className="flex items-center gap-1 text-slate-600 group-hover:text-slate-400 transition-colors text-xs uppercase tracking-widest">
+          <span>Read</span>
+          <ArrowUpRight size={11} />
+        </div>
+      </a>
+    ))}
+  </div>
+</section>
 
         {/* FOOTER */}
         <footer className="border-t border-slate-800 pt-6 pb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-slate-700 font-mono">
