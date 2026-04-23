@@ -109,7 +109,7 @@ export default function FinalFreight() {
       }}
     >
       {/* HEADER */}
-      <form name="freight-quote" data-netlify="true" hidden>
+      <form name="freight-quote" netlify data-netlify="true" hidden>
   <input name="mass" />
   <input name="contents" />
   <input name="orbit" />
@@ -416,7 +416,7 @@ export default function FinalFreight() {
               To discuss space allocation on {inquire}, contact our manifest desk directly. Reference this mission by name in your inquiry.
             </p>
             <div className="border border-slate-700 bg-slate-800/40 px-4 py-3 font-mono text-xs text-slate-300 mb-4">
-              freight@finalfreight.com
+              jaredhh@gmail.com
             </div>
             <button onClick={() => setInquire(null)} className="w-full border border-slate-700 text-slate-500 text-xs py-2 uppercase tracking-widest hover:text-slate-300 hover:border-slate-500 transition-colors">
               Dismiss
