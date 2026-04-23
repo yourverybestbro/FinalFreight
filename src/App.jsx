@@ -17,12 +17,12 @@ const TICK_ITEMS = [
 ];
 
 const MANIFEST = [
-  { mission: "Transporter-16", carrier: "SpaceX", window: "2026-06-12 UTC", orbit: "SSO 550km", utilization: 87, status: "OPEN" },
-  { mission: "VACUUM-7", carrier: "RocketLab", window: "2026-07-03 UTC", orbit: "LEO 450km", utilization: 62, status: "OPEN" },
-  { mission: "Cygnus NG-22", carrier: "Northrop / ULA", window: "2026-08-19 UTC", orbit: "ISS Resupply", utilization: 94, status: "CLOSING" },
-  { mission: "Transporter-17", carrier: "SpaceX", window: "2026-09-08 UTC", orbit: "SSO 525km", utilization: 31, status: "OPEN" },
-  { mission: "Dream Chaser (SNC)", carrier: "Sierra Space", window: "2026-10-14 UTC", orbit: "ISS / Downmass", utilization: 45, status: "OPEN" },
-  { mission: "Electron MR-11", carrier: "RocketLab", window: "2026-11-02 UTC", orbit: "LEO 600km", utilization: 78, status: "OPEN" },
+  { mission: "Transporter-17", carrier: "SpaceX", window: "2026-06 NET UTC", orbit: "SSO 550km", utilization: 52, status: "OPEN" },
+  { mission: "Kakushin Rising", carrier: "Rocket Lab", window: "2026-04-23 UTC", orbit: "LEO 550km", utilization: 98, status: "CLOSING" },
+  { mission: "Synspective StriX-7", carrier: "Rocket Lab", window: "2026-10-12 UTC", orbit: "LEO SAR", utilization: 40, status: "OPEN" },
+  { mission: "LOXSAT (NASA)", carrier: "Rocket Lab", window: "2026 NET UTC", orbit: "LEO Cryo Demo", utilization: 100, status: "FULL" },
+  { mission: "Transporter-18", carrier: "SpaceX", window: "2026-09 NET UTC", orbit: "SSO 525km", utilization: 28, status: "OPEN" },
+  { mission: "STP-S30 (DoD)", carrier: "Rocket Lab", window: "2026 NET UTC", orbit: "VLEO 300km", utilization: 65, status: "OPEN" },
 ];
 
 const FFI_DATA = [
