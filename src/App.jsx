@@ -455,7 +455,7 @@ export default function FinalFreight() {
             <span>·</span>
             <span>Est. 2026</span>
             <span>·</span>
-            <span>Nashville, TN</span>
+            <span>Memphis, TN</span>
           </div>
           <div className="flex gap-4">
             <span>Prices are indicative, not guaranteed.</span>
