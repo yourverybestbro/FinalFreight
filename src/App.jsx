@@ -17,12 +17,12 @@ const TICK_ITEMS = [
 ];
 
 const MANIFEST = [
-  { mission: "Transporter-17", carrier: "SpaceX", window: "2026-06 NET UTC", orbit: "SSO 550km", utilization: 52, status: "OPEN" },
-  { mission: "Kakushin Rising", carrier: "Rocket Lab", window: "2026-04-23 UTC", orbit: "LEO 550km", utilization: 98, status: "CLOSING" },
-  { mission: "Synspective StriX-7", carrier: "Rocket Lab", window: "2026-10-12 UTC", orbit: "LEO SAR", utilization: 40, status: "OPEN" },
-  { mission: "LOXSAT (NASA)", carrier: "Rocket Lab", window: "2026 NET UTC", orbit: "LEO Cryo Demo", utilization: 100, status: "FULL" },
-  { mission: "Transporter-18", carrier: "SpaceX", window: "2026-09 NET UTC", orbit: "SSO 525km", utilization: 28, status: "OPEN" },
-  { mission: "STP-S30 (DoD)", carrier: "Rocket Lab", window: "2026 NET UTC", orbit: "VLEO 300km", utilization: 65, status: "OPEN" },
+  { mission: "Transporter-17", carrier: "SpaceX", window: "2026-06 NET", orbit: "SSO 550km", utilization: 52, status: "OPEN" },
+  { mission: "iQPS QPS-SAR-13", carrier: "Rocket Lab", window: "2026-05 NET", orbit: "LEO SAR", utilization: 71, status: "OPEN" },
+  { mission: "LOXSAT (NASA)", carrier: "Rocket Lab", window: "2026-06-25 NET", orbit: "LEO Cryo", utilization: 100, status: "FULL" },
+  { mission: "Synspective StriX", carrier: "Rocket Lab", window: "2026-10-12 NET", orbit: "LEO SAR", utilization: 40, status: "OPEN" },
+  { mission: "Transporter-18", carrier: "SpaceX", window: "2026-09 NET", orbit: "SSO 525km", utilization: 28, status: "OPEN" },
+  { mission: "Kakushin Rising", carrier: "Rocket Lab", window: "2026-04-23", orbit: "LEO 550km", utilization: 100, status: "LAUNCHED" },
 ];
 
 const FFI_DATA = [
@@ -34,7 +34,7 @@ const FFI_DATA = [
   { label: "Crewed Return (Biomed)", value: "$48,000", delta: "+$2,100", up: true },
 ];
 
-const statusDot = { OPEN: "bg-emerald-400", CLOSING: "bg-amber-400", FULL: "bg-red-400" };
+const statusDot = { OPEN: "bg-emerald-400", CLOSING: "bg-amber-400", FULL: "bg-red-400", LAUNCHED: "bg-slate-500" };
 
 function UtilBar({ pct }) {
   const color = pct >= 90 ? "bg-red-500" : pct >= 70 ? "bg-amber-500" : "bg-emerald-500";
