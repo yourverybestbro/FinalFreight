@@ -183,7 +183,7 @@ export default function FinalFreight() {
               <div key={i} className="grid grid-cols-12 gap-2 px-5 py-3.5 border-b border-slate-800/60 hover:bg-slate-800/30 transition-colors group">
                 <div className="col-span-3 flex items-center gap-2">
                   <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${statusDot[row.status]}`} />
-                  <span className="text-slate-200 text-xs font-bold tracking-wide truncate">{row.mission}</span>
+                  <span className={`text-xs font-bold tracking-wide truncate ${row.status === "LAUNCHED" ? "text-slate-500 line-through" : "text-slate-200"}`}>{row.mission}</span>
                 </div>
                 <div className="col-span-2 flex items-center">
                   <span className="text-slate-400 text-xs">{row.carrier}</span>
@@ -211,6 +211,7 @@ export default function FinalFreight() {
               <span className="flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400" /> Open</span>
               <span className="flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-amber-400" /> Closing</span>
               <span className="flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-red-400" /> Full</span>
+<span className="flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-slate-500" /> Launched</span>
               <span className="ml-auto">Contact for current availability.</span>
             </div>
           </section>
