@@ -421,9 +421,10 @@ export default function FinalFreight() {
   <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-800/60">
     {INTELLIGENCE.map((item, i) => (
       
-        key={i}
-        href={item.href}
-        className="p-5 flex flex-col gap-3 hover:bg-slate-800/30 transition-colors group"
+<div
+  key={i}
+  onClick={() => item.href !== "#" && window.open(item.href, "_blank")}
+  className="p-5 flex flex-col gap-3 hover:bg-slate-800/30 transition-colors group cursor-pointer"
       >
         <div className="flex items-center justify-between">
           <span className="text-xs text-slate-500 uppercase tracking-widest border border-slate-700 px-2 py-0.5">{item.tag}</span>
@@ -439,7 +440,7 @@ export default function FinalFreight() {
           <span>Read</span>
           <ArrowUpRight size={11} />
         </div>
-      </a>
+      </div>
     ))}
   </div>
 </section>
