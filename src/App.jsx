@@ -109,6 +109,12 @@ export default function FinalFreight() {
       }}
     >
       {/* HEADER */}
+      <form name="freight-quote" data-netlify="true" hidden>
+  <input name="mass" />
+  <input name="contents" />
+  <input name="orbit" />
+  <input name="notes" />
+</form>
       <header className="sticky top-0 z-50 border-b border-slate-700/80 bg-slate-950/95 backdrop-blur-md">
         <div className="flex items-center justify-between px-6 py-3">
           <div className="flex items-center gap-3">
@@ -284,6 +290,7 @@ export default function FinalFreight() {
 
             {submitted ? (
               <div className="flex flex-col items-center justify-center py-12 gap-3">
+                
                 <CheckCircle size={28} className="text-emerald-400" />
                 <p className="text-slate-200 text-sm text-center">Lading received.</p>
                 <p className="text-slate-500 text-xs text-center max-w-xs leading-relaxed">
@@ -350,7 +357,18 @@ export default function FinalFreight() {
                   <span>v1.0 / {new Date().toISOString().slice(0, 10)}</span>
                 </div>
                 <button
-                  onClick={() => form.mass && setSubmitted(true)}
+                  onClick={async () => {
+  if (!form.mass) return;
+  await fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      "form-name": "freight-quote",
+      ...form
+    }).toString()
+  });
+  setSubmitted(true);
+}}
                   disabled={!form.mass}
                   className="w-full bg-slate-200 hover:bg-white text-slate-900 text-xs uppercase tracking-widest py-3 font-bold transition-colors disabled:opacity-30 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
