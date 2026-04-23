@@ -29,9 +29,9 @@ const FFI_DATA = [
   { label: "LEO Upmass (Rideshare)", value: "$7,000", delta: "+$112", up: true },
   { label: "LEO Upmass (Dedicated)", value: "$12,800", delta: "+$340", up: true },
   { label: "GEO Upmass", value: "$18,200", delta: "+$75", up: true },
-  { label: "ISS Downmass", value: "$34,500", delta: "-$600", up: false },
-  { label: "Dragon Downmass", value: "$29,000", delta: "—", up: null },
+  { label: "Dragon Downmass", value: "$29,000", delta: "-$600", up: false },
   { label: "Crewed Return (Biomed)", value: "$48,000", delta: "+$2,100", up: true },
+  { label: "Dream Chaser (proj.)", value: "TBD", delta: "NET 2027", up: null },
 ];
 
 const statusDot = { OPEN: "bg-emerald-400", CLOSING: "bg-amber-400", FULL: "bg-red-400", LAUNCHED: "bg-slate-500" };
