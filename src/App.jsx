@@ -409,7 +409,8 @@ export default function FinalFreight() {
           </section>
         </div>
 
-{/* INTELLIGENCE */}
+{/*
+
 <section className="border border-slate-700/60 bg-slate-900/40">
   <div className="flex items-center justify-between px-5 py-3 border-b border-slate-700/60">
     <div className="flex items-center gap-2">
@@ -443,7 +444,8 @@ export default function FinalFreight() {
       </div>
     ))}
   </div>
-</section>
+</section> */}
+
 
         {/* FOOTER */}
         <footer className="border-t border-slate-800 pt-6 pb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-slate-700 font-mono">
@@ -477,7 +479,7 @@ export default function FinalFreight() {
               To discuss space allocation on {inquire}, contact our manifest desk directly. Reference this mission by name in your inquiry.
             </p>
             <div className="border border-slate-700 bg-slate-800/40 px-4 py-3 font-mono text-xs text-slate-300 mb-4">
-              jaredhh@gmail.com
+              jared.herring@finalfreight.com
             </div>
             <button onClick={() => setInquire(null)} className="w-full border border-slate-700 text-slate-500 text-xs py-2 uppercase tracking-widest hover:text-slate-300 hover:border-slate-500 transition-colors">
               Dismiss
