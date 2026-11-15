@@ -1,0 +1,20 @@
+[
+  {
+    "label": "SpaceX rideshare, SSO",
+    "value": "$350,000",
+    "detail": "Up to 50 kg; $7,000 per kg above that. Reported 2026 price list.",
+    "source": { "name": "SpaceX rideshare page", "url": "https://www.spacex.com/rideshare" }
+  },
+  {
+    "label": "Dedicated Falcon 9",
+    "value": "~$74M",
+    "detail": "Reported list price, up from about $70M.",
+    "source": { "name": "Ars Technica Rocket Report, Mar 2026", "url": "" }
+  },
+  {
+    "label": "Rocket Lab Electron",
+    "value": "Not published",
+    "detail": "No public list price. Quote required.",
+    "source": { "name": "", "url": "" }
+  }
+]

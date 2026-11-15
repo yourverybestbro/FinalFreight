@@ -1,16 +1,31 @@
-# React + Vite
+# Final Freight site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite + Tailwind, deployed to GitHub Pages (`finalfreight.com`) by `.github/workflows/deploy.yml` on every push to `main`.
 
-Currently, two official plugins are available:
+## Refreshing the content (about 10 minutes a week)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+All schedule, rate and news content lives in `src/data/`. No component code needs to change.
 
-## React Compiler
+| File | What it drives |
+| --- | --- |
+| `site.json` | `updated` date shown in the header. Bump it whenever you review the data. If it is more than 21 days old, the page shows an "may be out of date" notice. |
+| `manifest.json` | Launch Watch table. Status: `LAUNCHED`, `SLIPPED`, `UNCONFIRMED`, `SCHEDULED`. |
+| `rates.json` | Reference Rates sidebar. Only published or reported list prices, each with a source. |
+| `notes.json` | Market Notes. Third-party reporting only, paraphrased, with a source. |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Rules: every figure needs a source; no placeholder numbers; remove rows once they are no longer useful.
 
-## Expanding the ESLint configuration
+## Quote form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+`src/config.js` -> `FORM_ENDPOINT`. Create a free form at formspree.io and paste its URL. While it is empty the form opens the visitor's email app with the request filled in (nothing is lost silently). The old Netlify Forms setup does not work on GitHub Pages.
+
+## Development
+
+```
+npm install
+npm run dev
+```
+
+## Not yet enabled
+
+`src/_drafts/IntelligenceSection.jsx` is a draft for a "Writing" section. Enable it once an article is published.
