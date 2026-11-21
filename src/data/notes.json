@@ -1,37 +1,92 @@
 [
   {
+    "date": "2026-11-19",
+    "tag": "Stations",
+    "title": "Frontier Space reserves four Starlab middeck lockers; an unnamed pharmaceutical company wants to use some",
+    "buyerNote": "Unnamed customer and no contract terms disclosed; an early sign of industrial interest in station lockers.",
+    "source": {
+      "name": "Payload, Nov 19, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "tag": "Launch",
+    "title": "ULA says early data points to a fuel-supply problem, not the BE-4 engines, in Sunday's Vulcan failure",
+    "buyerNote": "",
+    "source": {
+      "name": "Payload, Nov 19, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "tag": "Launch",
+    "title": "SEOPS signs a multi-launch rideshare deal with Stoke Space for Nova Block 2, from 2029; Payload reports SpaceX plans to sunset Falcon 9 rideshare around 2029",
+    "buyerNote": "Rideshare options after 2029 are still being assembled; Nova has not yet flown.",
+    "source": {
+      "name": "Payload, Nov 17, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "tag": "Launch",
+    "title": "ICEYE offers about €41 per share for 100% of Avio, maker of the Vega C launcher",
+    "buyerNote": "",
+    "source": {
+      "name": "Payload, Nov 17, 2026",
+      "url": ""
+    }
+  },
+  {
     "date": "2026-11-13",
     "tag": "Stations",
     "title": "Blue Origin reportedly leaving NASA's commercial station competition",
     "buyerNote": "Fewer candidate destinations to plan a research payload around.",
-    "source": { "name": "Payload, Nov 13, 2026", "url": "" }
+    "source": {
+      "name": "Payload, Nov 13, 2026",
+      "url": ""
+    }
   },
   {
     "date": "2026-11-05",
     "tag": "Contracts",
     "title": "Redwire wins a $20M contract for a second very-low-Earth-orbit demonstration mission",
     "buyerNote": "",
-    "source": { "name": "Payload, Nov 5, 2026", "url": "" }
+    "source": {
+      "name": "Payload, Nov 5, 2026",
+      "url": ""
+    }
   },
   {
     "date": "2026-03-30",
     "tag": "Launch",
     "title": "SpaceX flies Transporter-16 with 119 payloads",
     "buyerNote": "Rideshare remains the cheapest route to SSO, but manifests are crowded.",
-    "source": { "name": "Space.com launch calendar", "url": "https://www.space.com/32286-space-calendar.html" }
+    "source": {
+      "name": "Space.com launch calendar",
+      "url": "https://www.space.com/32286-space-calendar.html"
+    }
   },
   {
     "date": "2026-03",
     "tag": "Pricing",
     "title": "SpaceX rideshare list price rises to $7,000/kg (from $6,500) and dedicated Falcon 9 to about $74M",
     "buyerNote": "Re-check the current price sheet before budgeting a mission.",
-    "source": { "name": "Ars Technica Rocket Report, Mar 2026", "url": "" }
+    "source": {
+      "name": "Ars Technica Rocket Report, Mar 2026",
+      "url": ""
+    }
   },
   {
     "date": "2026-01-20",
     "tag": "Stations",
     "title": "Vast moves Haven-1 to no earlier than Q1 2027; Axiom and Starlab two-module stations are planned for 2028 and 2029",
     "buyerNote": "No privately operated station is likely before 2027.",
-    "source": { "name": "Payload, Jan 20, 2026", "url": "https://payloadspace.com/vast-delays-haven-1-launch-to-2027/" }
+    "source": {
+      "name": "Payload, Jan 20, 2026",
+      "url": "https://payloadspace.com/vast-delays-haven-1-launch-to-2027/"
+    }
   }
 ]
