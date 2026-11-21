@@ -7,7 +7,10 @@
     "window": "NET Q1 2027",
     "status": "SLIPPED",
     "note": "Moved from May 2026",
-    "source": { "name": "Payload, Jan 20, 2026", "url": "https://payloadspace.com/vast-delays-haven-1-launch-to-2027/" }
+    "source": {
+      "name": "Payload, Jan 20, 2026",
+      "url": "https://payloadspace.com/vast-delays-haven-1-launch-to-2027/"
+    }
   },
   {
     "mission": "Electron — Synspective StriX",
@@ -17,7 +20,10 @@
     "window": "Dec 2026 (TBD)",
     "status": "UNCONFIRMED",
     "note": "Several StriX launches listed without firm dates",
-    "source": { "name": "Space Launch Now", "url": "https://spacelaunchnow.me/launch/upcoming/" }
+    "source": {
+      "name": "Space Launch Now",
+      "url": "https://spacelaunchnow.me/launch/upcoming/"
+    }
   },
   {
     "mission": "Electron — iQPS SAR satellite",
@@ -27,7 +33,10 @@
     "window": "Dec 2026 (TBD)",
     "status": "UNCONFIRMED",
     "note": "",
-    "source": { "name": "Space Launch Now", "url": "https://spacelaunchnow.me/launch/upcoming/" }
+    "source": {
+      "name": "Space Launch Now",
+      "url": "https://spacelaunchnow.me/launch/upcoming/"
+    }
   },
   {
     "mission": "Electron — BlackSky Gen-3",
@@ -37,7 +46,10 @@
     "window": "Dec 2026 (TBD)",
     "status": "UNCONFIRMED",
     "note": "",
-    "source": { "name": "Space Launch Now", "url": "https://spacelaunchnow.me/launch/upcoming/" }
+    "source": {
+      "name": "Space Launch Now",
+      "url": "https://spacelaunchnow.me/launch/upcoming/"
+    }
   },
   {
     "mission": "Transporter-18",
@@ -47,7 +59,10 @@
     "window": "Date unconfirmed",
     "status": "UNCONFIRMED",
     "note": "Listed for Oct 2026; confirm with SpaceX",
-    "source": { "name": "Space Launch Now", "url": "https://spacelaunchnow.me/launch/upcoming/" }
+    "source": {
+      "name": "Space Launch Now",
+      "url": "https://spacelaunchnow.me/launch/upcoming/"
+    }
   },
   {
     "mission": "Transporter-16",
@@ -57,6 +72,35 @@
     "window": "Mar 30, 2026",
     "status": "LAUNCHED",
     "note": "119 payloads",
-    "source": { "name": "Space.com launch calendar", "url": "https://www.space.com/32286-space-calendar.html" }
+    "source": {
+      "name": "Space.com launch calendar",
+      "url": "https://www.space.com/32286-space-calendar.html"
+    }
+  },
+  {
+    "mission": "Vigoride-8 (Momentus) on Bandwagon-6",
+    "provider": "SpaceX Falcon 9",
+    "type": "Rideshare",
+    "orbit": "Not stated",
+    "window": "NET 2027",
+    "status": "SCHEDULED",
+    "note": "Orbital service vehicle for NASA and other customers",
+    "source": {
+      "name": "Payload, Nov 18, 2026",
+      "url": ""
+    }
+  },
+  {
+    "mission": "Pax (Inflection Space Systems)",
+    "provider": "Exolaunch (integrator)",
+    "type": "Rideshare",
+    "orbit": "Not stated",
+    "window": "NET 2028",
+    "status": "SCHEDULED",
+    "note": "16U, 36 kg cubesat; launch vehicle not named",
+    "source": {
+      "name": "Payload, Nov 18, 2026",
+      "url": ""
+    }
   }
 ]
