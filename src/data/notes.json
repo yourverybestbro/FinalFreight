@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-11-25",
+    "tag": "Launch",
+    "title": "EnduroSat buys two dedicated New Glenn 7x2 launches from Blue Origin, the first scheduled for 2029",
+    "buyerNote": "Dedicated launch capacity is being booked years ahead of flight.",
+    "source": {
+      "name": "Payload, Nov 25, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "tag": "Contracts",
+    "title": "Outpost Technologies selected for two Phase I NASA SBIR/STTR efforts on optical fiber manufacturing in microgravity",
+    "buyerNote": "Early federal funding for in-space materials work; Phase I only.",
+    "source": {
+      "name": "Payload, Nov 25, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "tag": "Launch",
+    "title": "Northrop Grumman books a sixth Falcon 9 for Cygnus and gives no readiness date for Antares 330",
+    "buyerNote": "",
+    "source": {
+      "name": "Payload, Nov 25, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "tag": "Contracts",
+    "title": "Verde Technologies signs a NASA contract to test perovskite solar cells outside the ISS through MISSE, NET June",
+    "buyerNote": "A terrestrial solar maker validating its product in orbit before selling to spacecraft operators; six months of exposure, then returned for analysis.",
+    "source": {
+      "name": "Payload, Nov 23, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "tag": "Launch",
+    "title": "LEAP announces a 32-launch agreement with an unnamed US defense startup, starting 2029 on its Bighorn vehicles",
+    "buyerNote": "",
+    "source": {
+      "name": "Payload, Nov 23, 2026",
+      "url": ""
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "tag": "Launch",
+    "title": "SpaceX launches two missions from Vandenberg SLC-4E 32 hours apart, a new same-pad turnaround record",
+    "buyerNote": "",
+    "source": {
+      "name": "Payload, Nov 23, 2026",
+      "url": ""
+    }
+  },
+  {
     "date": "2026-11-19",
     "tag": "Stations",
     "title": "Frontier Space reserves four Starlab middeck lockers; an unnamed pharmaceutical company wants to use some",

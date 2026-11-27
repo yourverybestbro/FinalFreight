@@ -43,12 +43,12 @@
     "provider": "Rocket Lab",
     "type": "Dedicated",
     "orbit": "LEO",
-    "window": "Dec 2026 (TBD)",
+    "window": "NET Dec 30, 2026",
     "status": "UNCONFIRMED",
-    "note": "",
+    "note": "Payload says BlackSky's sixth Gen-3 satellite targets NET Dec 30; the issue does not name the vehicle",
     "source": {
-      "name": "Space Launch Now",
-      "url": "https://spacelaunchnow.me/launch/upcoming/"
+      "name": "Payload, Nov 25, 2026",
+      "url": ""
     }
   },
   {
@@ -100,6 +100,19 @@
     "note": "16U, 36 kg cubesat; launch vehicle not named",
     "source": {
       "name": "Payload, Nov 18, 2026",
+      "url": ""
+    }
+  },
+  {
+    "mission": "EnduroSat — New Glenn 7x2 (first of two)",
+    "provider": "Blue Origin New Glenn",
+    "type": "Dedicated",
+    "orbit": "Not stated",
+    "window": "2029",
+    "status": "SCHEDULED",
+    "note": "Two dedicated launches purchased; the second is not dated in the source",
+    "source": {
+      "name": "Payload, Nov 25, 2026",
       "url": ""
     }
   }
